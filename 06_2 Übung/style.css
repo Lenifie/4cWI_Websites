@@ -1,0 +1,49 @@
+.bluebox{
+    background-color: aqua;
+    width: 200px;
+    height: 400px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.blackbox{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+}
+
+.greenbox{
+    background-color: greenyellow;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top:400px;
+    left: 208px;
+}
+
+
+footer{
+    display: flex;
+
+    
+}
+
+
+.outerbox{
+    display: flex;
+    flex-wrap: nowrap;
+    border-style: solid;
+
+}
+
+.innerbox{
+    background-color: greenyellow;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 40px;
+    height:40px;
+    margin: 10px;
+    border-style: solid;
+
+
+}

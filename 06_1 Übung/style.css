@@ -1,0 +1,58 @@
+header{
+   
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+.headerbox{
+    background-color: greenyellow;
+    border-color: black;
+    border: 2px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 30px;
+    margin: 10px;
+    text-align: justify;
+    line-height: 30px;
+
+}
+
+.infoblock{
+    background-color:aqua;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    height: 300px;
+    width: 400px;
+    padding-top: 20px;
+    padding-left: 20px;
+
+}
+
+.brownbox{
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top:240px;
+    left: 348px;
+
+
+
+}
+
+footer{
+
+    background-color: yellow;
+    display: flex;
+
+}
+.purplebox{
+    background-color: blueviolet;
+    width: 50px;
+    height: 50px;
+
+
+}
