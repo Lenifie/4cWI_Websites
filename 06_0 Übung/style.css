@@ -27,6 +27,7 @@ header{
     width: 400px;
     padding-top: 20px;
     padding-left: 20px;
+    position: relative;
 
 }
 
@@ -35,8 +36,8 @@ header{
     width: 100px;
     height: 100px;
     position: absolute;
-    top:298px;
-    left: 348px;
+    right:0;
+    bottom: 0;
 
 
 
