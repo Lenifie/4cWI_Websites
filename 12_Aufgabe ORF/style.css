@@ -3,10 +3,38 @@
     font-feature-settings: "liga", "kern";
     -webkit-font-feature-settings: "liga", "kern";
     -moz-font-feature-settings: "liga", "kern";
+    color: white;
+    
 }
 .header{
     background-color: #CC0000;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    padding: 10px;
 }
 .subheader{
+    background-color: #E60000;
+    display: grid;
+    grid-template-columns: 115px auto;
+    padding: 30px;
+    font-size: 1.5rem;
+
+}
+.subsubheader{
     background-color: #990000;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+.text{
+    color: black;
+    display: grid;
+    justify-content: center;
+}
+h5{
+    color: #7a7a7a;
+    margin-bottom: 0;
+}
+h2{
+    color: black;
 }
