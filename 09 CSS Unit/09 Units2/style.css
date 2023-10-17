@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    font-size: 20px;
+}
+
+div{
+    height: 50px;
+    background-color: red;
+}
+
+.container1{
+    width: 50%;
+    font-size: 1rem; /* root*/
+}
+
+.container2{
+    width: 100vw;
+    height: 100vh;
+    font-size: 0.3rem;
+    font-size: 1.2em; /*bezeiht sich auf vater container*/
+}
+
+.main{
+    background-color: green;
+    font-size: 1.5rem;
+    height: 200px;
+    width: 200px;
+}
