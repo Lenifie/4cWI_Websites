@@ -7,13 +7,14 @@
     
 }
 .header{
-    background-color: #CC0000;
+    background-color: #990000;
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    grid-template-columns: 15px 15px 15px 15px 15px 15px 15px 100px auto;
+    column-gap: 125px;
     padding: 10px;
 }
 .subheader{
-    background-color: #E60000;
+    background-color: #B30000;
     display: grid;
     grid-template-columns: 115px auto;
     padding: 30px;
@@ -21,16 +22,33 @@
 
 }
 .subsubheader{
-    background-color: #990000;
+    background-color: #660000;
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
 }
+.main{
+    background-color: gray;
+    height: 500px;
+    position: relative;
+}
 
-.text{
+.outertext{
     color: black;
     display: grid;
     justify-content: center;
+    position:absolute;
+    left: 30%;
+    bottom: -15%;
+    background-color: white;
 }
+.text{
+    color: black;
+    padding:10px;
+    display: grid;
+    justify-content: center;
+   
+}
+
 h5{
     color: #7a7a7a;
     margin-bottom: 0;
