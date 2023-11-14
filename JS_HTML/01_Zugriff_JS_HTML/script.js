@@ -1,2 +1,2 @@
 console.log("hi");
-document.getElementById("content").innerHTML = "Tolle Sache";
+document.getElementById("content").innerHTML = ("Tolle Sache");
