@@ -1,3 +1,4 @@
+/*Homepage*/
 .header{
     display: flex;
     justify-content: space-between;
@@ -54,18 +55,9 @@ h1{
     line-height: 39px;
 }
 
-a:link {
-    text-decoration: none;
-    color: #000000; 
-  }
-
-  a:visited {
-    text-decoration: none;
-    color: #000000; 
-  }
 .teamsbox{
     position: absolute;
-    width: 640px;
+    width: 750px;
     height: 466px;
     left: 36px;
     top: 309px;
@@ -75,19 +67,119 @@ a:link {
 
 .matchesbox{
     position: absolute;
-    width: 891px;
+    width: 750px;
     height: 466px;
     right: 36px;
     top: 309px;
     
     background: rgba(0, 255, 224, 0.17);
 }
+/*Generell*/
+a:link {
+    text-decoration: none;
+    color: #000000; 
+  }
+
+  a:visited {
+    text-decoration: none;
+    color: #000000; 
+  }
+
+/*Teams*/
+.tabellemannschaft{
 
 
 
+}
+.mannschaf{
+    position: absolute;
+    width: 300px;
+    height: 466px;
+    left: 95px;
+    top: 331px;
+    border: solid;
+    
+
+}
+.mannschaftbox1{
+    position: absolute;
+    width: 300px;
+    height: 466px;
+    left: 95px;
+    top: 331px;
+    
+    background: rgba(0, 255, 224, 0.17);
+    
+}
+.mannschaftbox2{
+    /* Rectangle 5 */
+
+position: absolute;
+width: 300px;
+height: 466px;
+left: 500px;
+top: 331px;
+
+background: rgba(0, 255, 224, 0.17);
+}
+
+.mannschaftbox3{
+    /* Rectangle 6 */
+
+position: absolute;
+width: 300px;
+height: 466px;
+right: 500px;
+top: 331px;
+
+background: rgba(0, 255, 224, 0.17);
+
+}
+.mannschaftbox4{
+position: absolute;
+width: 300px;
+height: 466px;
+right: 95px;
+top: 331px;
+
+background: rgba(0, 255, 224, 0.17);
+
+}
+.mannschaftsname{
+    border: solid;
+    margin-top: 20px;
+}
 
 
 
+.spiel{
+
+
+    position: absolute;
+
+    height: 39px;
+    left: 600px;
+    top: 252px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.spielbox{
+/* Rectangle 5 */
+
+position: absolute;
+width: 1300px;
+height: 466px;
+left: 180px;
+top: 307px;
+
+background: rgba(0, 255, 224, 0.17);
+
+}
 
 
 
