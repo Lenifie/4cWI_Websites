@@ -20,20 +20,19 @@ function fetchData() {
     // API-Anfrage
     fetch(apiUrl)
         .then(response => response.json())
-        .then(data => {
-          console.log('API-Daten:',data);
-          displayData(data);
-        })
+        .then(data => displayData(data))
         .catch(error => console.error('Error fetching data:', error));
 }
 
 // Funktion, um die Daten anzuzeigen
 function displayData(data) {
     // Hier kannst du die gewünschten Daten aus der API-Antwort extrahieren und ins HTML einfügen
-    const match = data[0]; // Beispiel: Hier nehmen wir das erste Match in der Antwort
-  console.log(match);
+    const matchID = data[0]; // Hier die gewünschte Match-ID eingeben
+
+    // Suche nach dem Spiel mit der passenden matchID
+    const match = data.find(match => match.MatchID === matchID);
+
     if (match) {
-        const groupOrderID = match.GroupOrderID;
         const goalID = match.GoalID;
         const pointsTeam1 = match.PointsTeam1;
         const pointsTeam2 = match.PointsTeam2;
@@ -44,6 +43,8 @@ function displayData(data) {
         // Text erstellen und ins HTML einfügen
         const displayText = `${pointsTeam1} : ${pointsTeam2}`;
         apiDataElement.textContent = displayText;
+    } else {
+        console.error(`Spiel mit der Match-ID ${matchID} nicht gefunden.`);
     }
 }
 
