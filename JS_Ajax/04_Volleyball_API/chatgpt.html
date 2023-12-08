@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OpenLigaDB API Beispiel</title>
+</head>
+<body>
+
+  <div id="matchResult"></div>
+
+  <script>
+    // Die URL zur OpenLigaDB-API
+    var apiUrl = 'https://api.openligadb.de/getmatchdata/VBL1/2022';
+
+    // AJAX-Anfrage, um Daten von der API abzurufen
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', apiUrl, true);
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState == 4 && xhr.status == 200) {
+        // Daten erfolgreich abgerufen
+        var data = JSON.parse(xhr.responseText);
+
+        // Wähle ein zufälliges Spiel aus den abgerufenen Daten aus
+        var randomMatch = data[Math.floor(Math.random() * data.length)];
+
+        // Extrahiere die benötigten Informationen
+        var matchID = randomMatch.matchID;
+        var pointsTeam1 = randomMatch.pointsTeam1;
+        var pointsTeam2 = randomMatch.pointsTeam2;
+
+        // Erstelle den Text für die Anzeige
+        var resultText = pointsTeam1 + ' : ' + pointsTeam2;
+
+        // Füge den Text in das HTML-Dokument ein
+        document.getElementById('matchResult').innerHTML = 'Ergebnis für Spiel mit ID ' + matchID + ': ' + resultText;
+      }
+    };
+    xhr.send();
+  </script>
+
+</body>
+</html>

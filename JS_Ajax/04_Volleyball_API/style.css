@@ -6,12 +6,13 @@
     background-color: #00FFE0;
     padding: 0px;
 }
+
 .ball{
     width:10%;
     margin: 15px;
     margin-left: 30px;
     margin-right: 30px;
-    }
+}
 
 h1{
     font-family: 'Inter';
@@ -19,8 +20,6 @@ h1{
     font-size: 40px;
     color: #000000;   
 }
-
-
 
 .teams{
     box-sizing: border-box;
@@ -58,11 +57,39 @@ h1{
 .teamsbox{
     position: absolute;
     width: 750px;
-    height: 466px;
+    height: 630px;
     left: 36px;
     top: 309px;
     
     background: rgba(0, 255, 224, 0.17);
+}
+
+.team{
+    font-family: 'Inter';
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: solid;
+    padding: 10px;
+    width: 600px;
+    margin: 70px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.rrv{
+    width: 200px;
+}
+
+.vcw{
+    width: 98px;
+}
+
+.nawaro{
+    width: 80px;
+}
+
+.sscp{
+    width: 100px;
 }
 
 .matchesbox{
@@ -86,51 +113,48 @@ a:link {
   }
 
 /*Teams*/
-.tabellemannschaft{
-
-
-
-}
-.mannschaf{
+.mannschaften{
     position: absolute;
-    width: 300px;
-    height: 466px;
-    left: 95px;
-    top: 331px;
-    border: solid;
-    
+    display: flex;
+    justify-content: space-between;
+    left: 90px;
+    right: 91px;
 
 }
+
+.mannschaftsname{
+    width:300px ;
+    height:57px ;
+    border: solid;
+    margin-top: 60px;
+}
+
 .mannschaftbox1{
     position: absolute;
     width: 300px;
     height: 466px;
     left: 95px;
-    top: 331px;
+    top: 320px;
     
     background: rgba(0, 255, 224, 0.17);
     
 }
 .mannschaftbox2{
-    /* Rectangle 5 */
-
 position: absolute;
 width: 300px;
 height: 466px;
-left: 500px;
-top: 331px;
+left: 495px;
+top: 320px;
 
 background: rgba(0, 255, 224, 0.17);
 }
 
 .mannschaftbox3{
-    /* Rectangle 6 */
-
 position: absolute;
 width: 300px;
 height: 466px;
-right: 500px;
-top: 331px;
+right: 495px;
+top: 320px;
 
 background: rgba(0, 255, 224, 0.17);
 
@@ -139,22 +163,13 @@ background: rgba(0, 255, 224, 0.17);
 position: absolute;
 width: 300px;
 height: 466px;
-right: 95px;
-top: 331px;
+right: 96px;
+top: 320px;
 
 background: rgba(0, 255, 224, 0.17);
-
 }
-.mannschaftsname{
-    border: solid;
-    margin-top: 20px;
-}
-
-
 
 .spiel{
-
-
     position: absolute;
 
     height: 39px;
@@ -169,18 +184,32 @@ background: rgba(0, 255, 224, 0.17);
 }
 
 .spielbox{
-/* Rectangle 5 */
-
 position: absolute;
 width: 1300px;
-height: 466px;
-left: 180px;
+height: 620px;
+left: 200px;
 top: 307px;
 
 background: rgba(0, 255, 224, 0.17);
-
 }
 
+.spieltag{ 
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+}
+.rrvs{
+    width: 180px;
+}
+
+.nawaros{
+    width: 100px;
+}
 
 
 
