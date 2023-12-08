@@ -95,7 +95,7 @@ h1{
 .matchesbox{
     position: absolute;
     width: 750px;
-    height: 466px;
+    height: 630px;
     right: 36px;
     top: 309px;
     
@@ -124,49 +124,91 @@ a:link {
 
 .mannschaftsname{
     width:300px ;
-    height:57px ;
+    height:100px ;
     border: solid;
     margin-top: 60px;
-}
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 39px;
+}
+.rrvm{
+    width: 120px;
+}
+.vcwm{
+    width: 80px;
+}
+.sscpm{
+    width: 80px;
+}
+.nawarom{
+    width: 75px;
+}
 .mannschaftbox1{
     position: absolute;
     width: 300px;
-    height: 466px;
+    height: 630px;
     left: 95px;
-    top: 320px;
-    
+    top: 365px;
     background: rgba(0, 255, 224, 0.17);
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 39px;
     
 }
 .mannschaftbox2{
 position: absolute;
 width: 300px;
-height: 466px;
+height: 630px;
 left: 495px;
-top: 320px;
-
+top: 365px;
 background: rgba(0, 255, 224, 0.17);
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 39px;
+
 }
 
 .mannschaftbox3{
 position: absolute;
 width: 300px;
-height: 466px;
+height: 630px;
 right: 495px;
-top: 320px;
-
+top: 365px;
 background: rgba(0, 255, 224, 0.17);
 
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 39px;
 }
+
 .mannschaftbox4{
 position: absolute;
 width: 300px;
-height: 466px;
+height: 630px;
 right: 96px;
-top: 320px;
-
+top: 365px;
 background: rgba(0, 255, 224, 0.17);
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 39px;
 }
 
 .spiel{

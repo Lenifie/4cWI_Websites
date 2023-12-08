@@ -34,7 +34,7 @@ async function displayMatchData(containerId, index) {
 }
 
 // Funktionen aufrufen, um die Daten im HTML anzuzeigen
-displayMatchData('load1', 0);  // Erste resultID
-displayMatchData('load2', 1);  // Zweite resultID
-displayMatchData('load3', 2);  // Dritte resultID
-displayMatchData('load4', 3);  // Vierte resultID
+displayMatchData('load5', 0);  // Erste resultID
+displayMatchData('load6', 1);  // Zweite resultID
+displayMatchData('load7', 2);  // Dritte resultID
+displayMatchData('load8', 3);  // Vierte resultID
