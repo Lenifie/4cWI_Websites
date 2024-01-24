@@ -1,7 +1,7 @@
 .main{
     border-style: solid;
     padding: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 100px;
 
 }
 
@@ -12,11 +12,15 @@
 .isOn{
     border-style: solid;
     padding: 10px;
-    background-color: aqua;
-    color: gold;
+    background-color: #19FF8C;
+    color: white;
+    width: 100px;
+    margin-bottom: 30px;
 }
 
 .isOff{
-    border-style: solid;
     padding: 10px;
+    width: 100px;
+    background-color: #00B359;
+    margin-bottom: 30px;
 }

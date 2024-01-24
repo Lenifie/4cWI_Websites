@@ -1,19 +1,24 @@
 import './App.css';
 import Button from './components/Button';
-import Person from './components/Person';
+import List from './components/List';
+import Card from './components/Card';
+
 
 function App() {
   return (
-    <div className="App" style={{border:"solid"}}>
+    <div className="App" >
 
-        <Button name="hans" age="18"/>
-        <Button name = "sepp" age ="21"/>
-        <Button name= "paul" age = "14"/>
-        hallo
-        <Person name="Finn" description="Supder Coder"/>
-        <Person name="Hannes" description="Supder Programmierer"/>
-        <Person name="Sude" description="Supder Coder"/>
+      <h1>Aufgabe Komponenten:</h1>
+      <p>Liste:</p>
+      <List description="Coffe"/>
+      <List description="Tea"/>
+      <List description="Beer"/>
 
+      Button:
+      <Button/>
+
+      Card:
+      <Card/>
     </div>
   );
 }

@@ -1,0 +1,15 @@
+.List{
+    display: flex;
+    align-items: left;
+    color: white;
+    background-color:  #00B395;
+    padding: 20px;
+    width: 100px;
+    list-style:none;
+
+}    
+
+
+.List:hover{
+    background-color:#19FFD9 ;
+}
